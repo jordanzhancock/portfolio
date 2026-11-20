@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router';
 import Home from './pages/Home';
 import Agentz from './pages/Agentz';
 import Intro from './components/Intro';
