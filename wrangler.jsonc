@@ -1,0 +1,9 @@
+{
+  "name": "portfolio",
+  "compatibility_date": "2025-11-01",
+  // Static site: serve the Vite build, and send unknown paths (like /work/agentz) to index.html.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
